@@ -1,0 +1,8 @@
+[
+  {"id": 1, "item":"juice", "customer_id":"3"},
+  {"id": 2, "item":"book", "customer_id":"1"},
+  {"id": 3, "item":"wine", "customer_id":"3"},
+  {"id": 4, "item":"vodka", "customer_id":"3"},
+  {"id": 5, "item":"computer", "customer_id":"2"}
+
+]

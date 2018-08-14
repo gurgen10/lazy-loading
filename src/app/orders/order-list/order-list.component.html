@@ -1,0 +1,6 @@
+<p [ngStyle]="{'color':'pink','font-weight': 'bold'}">
+  Order list
+</p>
+<ul *ngFor="let order of orders">
+  <li  [ngStyle]="{'list-style':'none','font-weight': 'bold'}">{{order.id}} {{order.item}} {{order.customer_id}}</li>
+</ul>

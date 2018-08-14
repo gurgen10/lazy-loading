@@ -1,0 +1,6 @@
+<p [ngStyle]="{'color':'pink','font-weight': 'bold'}">
+Customer-list
+</p>
+<ul *ngFor="let customer of customers">
+  <li [ngStyle]="{'list-style':'none','font-weight': 'bold'}">{{customer.id}} {{customer.name}} {{customer.surname}}</li>
+</ul>
